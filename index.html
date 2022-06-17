@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1 id="title"><img src="https://play-lh.googleusercontent.com/ilA1FBNjur5ljEHetJ4U_t9SEnAMhCV9V7bgf3kJu9fsqtmDEVR0LasdJaqCcuWRdg=w240-h480-rw" alt=""> Member Registration Form</h1>
+    <p id="description">Register to be a premium yuu member to enjoy best shopping experience.</p>
+    <form action="#Yuu-Sever" id="survey-form">
+        <fieldset>
+            <label id="name-label">Name: <input type="text" id="name" placeholder="  enter your name" class="word-input" required></label>
+            <label id="email-label">Email: <input type="email" id="email" placeholder="  enter your e-mail address" class="word-input" required></label>
+            <label id="number-label">Age: <input type="number" id="number" min=18 max=110 placeholder="  enter your age" class="word-input"></label>
+        </fieldset>
+
+        <fieldset>
+            <label>Which kind of membership do you wish to become?
+            <select name="membership-plan" id="dropdown" class="word-input">
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Regular">Regular</option>
+            </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label>Please select the duration of your membership:</label>
+            <label><input type="radio" value="1-year" name="plan-year" class="inline"> 1-year</label>
+            <label><input type="radio" value="3-year" name="plan-year" class="inline"> 3-year</label>
+        </fieldset>
+
+        <fieldset>
+        <label>Customer Review: <textarea name="" id="" cols="50" rows="4" placeholder="  Please provide us your valuable shopping experience."></textarea></label>
+        </fieldset>
+
+        <fieldset>
+            <label><input type="checkbox" name="agreement" value="policy-agree" class="inline"> I agree with our terms, data policy and company policy.</label>
+            <label><input type="checkbox" name="agreement" value="promotion-agree" class="inline"> I wish to receive the lastest promotion of the company's products via email.</label>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+</body>
+</html>
