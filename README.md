@@ -1,2 +1,2 @@
 # CSS Project
-Random projects that use CSS techniques.
+A Registration Form designed by CSS
